@@ -10,4 +10,21 @@ Supports multiple sources such as Twitter, Reddit, Facebook, and news websites.
 Provides answers to user queries in real-time.
 User-friendly web-based interface.
 
+## Contents
+
+This repository contains the following directories:
+
+* data: contains the datasets used for training and testing the models. TREC 2022 dataset
+* Test Data: contains smaller chunk of data used for inital testing
+
+##Report Website
+
+We have also created a website where you can find a detailed report of our experiments, including the methodology, results, and analysis. You can access the report website at www.codemaroonreport.com.
+
+##Demo Website and Repo
+
+If you are interested in trying out the demo version of Code Maroon, you can visit our demo website at https://codemaroon.streamlit.app/ or check out the demo repository at https://github.com/yash8005/code-maroon-deploy.
+
+
+
 
