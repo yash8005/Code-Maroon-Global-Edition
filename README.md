@@ -25,7 +25,7 @@ We have also created a website where you can find a detailed report of our exper
 
 If you are interested in trying out the demo version of Code Maroon, you can visit our demo website at https://codemaroon.streamlit.app/ or check out the demo repository at https://github.com/yash8005/code-maroon-deploy.
 
-![https://github.com/BhaShah12/BhaShah12.github.io/blob/main/images/showcase11.jpeg]
+![Project Showcase](https://github.com/BhaShah12/BhaShah12.github.io/blob/main/images/showcase11.jpeg)
 
 
 
