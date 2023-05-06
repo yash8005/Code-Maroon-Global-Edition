@@ -27,6 +27,12 @@ This repository contains the following directories:
 * Input embeddings of query and relevant documents to LLMs using Roberta model tokenizer for "deepset/roberta-base-squad2" model.
 * Output of models is extracted facts in answers form.
 
+## Observations
+
+We conducted experiments on T5, Open AI, and Roberta models for general and fact-based queries. On average, T5 outperformed the other models in terms of exact match, F1 score, recall, and precision for general queries, achieving an exact match rate of 14.38%, F1 score of 0.204, recall of 25.74%, and precision of 34.87%. However, for fact-based queries, T5 performed significantly better with an exact match rate of 60.00%, F1 score of 0.6, recall of 60.00%, and precision of 60.00%. Open AI and Roberta followed with 20.00% and 33% exact match rate respectively for fact-based queries.
+
+These results highlight the potential of T5 as the preferred model for general queries, while Open AI and Roberta can be used as alternative models. However, for fact-based queries, T5 proved to be the most effective model, followed by Open AI and Roberta. These results were obtained from our experimentation repository, which includes all the code, data, and results. For more details, please refer to our report website. To experience our demo version, please visit our demo website and demo repository.
+
 ## Report Website
 
 We have also created a website where you can find a detailed report of our experiments, including the methodology, results, and analysis. You can access the report website at https://yash8005.gitlab.io/code-maroon-report/
