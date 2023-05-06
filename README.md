@@ -19,7 +19,7 @@ This repository contains the following directories:
 
 ## Report Website
 
-We have also created a website where you can find a detailed report of our experiments, including the methodology, results, and analysis. You can access the report website at www.codemaroonreport.com.
+We have also created a website where you can find a detailed report of our experiments, including the methodology, results, and analysis. You can access the report website at https://yash8005.gitlab.io/code-maroon-report/
 
 ## Demo Website and Repo
 
