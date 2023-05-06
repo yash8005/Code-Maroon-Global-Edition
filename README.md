@@ -17,6 +17,16 @@ This repository contains the following directories:
 * data: contains the datasets used for training and testing the models. TREC 2022 dataset
 * Test Data: contains smaller chunk of data used for inital testing
 
+## Approach
+
+* Collect and preprocess data by gathering from various sources and removing irrelevant text.
+* Extract relevant context text called "Headlines" and embed chunks using Sentence-Transformer model "paraphrase-MiniLM-L6-v2".
+* Use cosine similarity to extract relevant headline chunks from embedded headline data based on query.
+* Perform fact extraction using large language models (LLMs) pre-trained on QA datasets like SQuAD dataset.
+* Three successful LLMs used: "deepset/roberta-base-squad2," "Google Flan T5 Model," and "Open AI text-davinci-002 - GPT 3.5 series model".
+* Input embeddings of query and relevant documents to LLMs using Roberta model tokenizer for "deepset/roberta-base-squad2" model.
+* Output of models is extracted facts in answers form.
+
 ## Report Website
 
 We have also created a website where you can find a detailed report of our experiments, including the methodology, results, and analysis. You can access the report website at https://yash8005.gitlab.io/code-maroon-report/
